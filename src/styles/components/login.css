@@ -1,0 +1,36 @@
+input[type="text"] {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  border: 0;
+  outline: 0;
+  background: transparent;
+  width: 12.70em;
+  font-size: 1em;
+}
+
+.login-input-wrapper, input[type="text"] {
+  font-family: monospace;
+  font-weight: bold;
+  letter-spacing: .3em;
+}
+
+.login-input-wrapper {
+  display: inline-block;
+  position: relative;
+  overflow: hidden;
+  padding-bottom: .2em;
+  font-size: 200%;
+}
+
+.login-input-wrapper:after {
+  content: "———————";
+  line-height: .3em;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  z-index: -1;
+}
+.login-btn {
+  display: block;
+}

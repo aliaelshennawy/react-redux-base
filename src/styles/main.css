@@ -1,0 +1,32 @@
+/*Importing vendors styles*/
+
+/* Importing components */
+@import 'components/login.css';
+/* Importing Elements */
+@import 'elements/anchor.css';
+@import 'elements/body.css';
+@import 'elements/img.css';
+@import 'elements/title.css';
+
+/* Importing general components */
+@import 'general/box-sizing.css';
+@import 'general/shadow.css';
+@import 'general/container.css';
+@import 'general/rtl.css';
+@import 'general/bold.css';
+
+/* Importing Objects */
+@import 'objects/grid.css';
+@import 'objects/flex-grid.css';
+
+/* Importing Components */
+
+/* Importing Settings */
+@import 'settings/fonts.css';
+@import 'settings/variables.css';
+
+/* Importing Utilities */
+@import 'utilities/clearfix.css';
+@import 'utilities/lists.css';
+@import 'utilities/screen-reader.css';
+@import 'utilities/text-alignment.css';
